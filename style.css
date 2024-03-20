@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background: url("./background.jpg");
+    color: hwb(0 9% 91%);
+    background-position: 40%;
+    background-size:cover;
+    height: 500px;
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+#name{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+
+#main{
+    width: 700px;
+    height: 100px;
+    border: 5px solid rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: -3px 5px 5px rgba(255, 255, 255, 0.89);
+}
+
+
+#circle{
+    height: 50px;
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+
+.score{
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+
+#scores{
+    display: flex;
+    margin-top: 35px;
+    color: whitesmoke;
+}
+
+
+#res{
+    background: #09090900;
+    color: rgba(252, 250, 250, 0.874);
+    height: auto;
+    width: 500px;
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.897);
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+#btn{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+input[type="button"]{
+    height: 50px;
+    width: 100px;
+    background: #10131397;
+    color: rgba(250, 246, 246, 0.892);
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.container{
+    margin: auto;
+    margin-top: 7%;
+    background-color:rgba(0, 0, 0, 0.619);
+    box-shadow: 10px 10px 10px black;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 500px;
+    padding: 20px;
+    align-self: center;
+    border-radius: 25px;    
+}
+input[type="button"]:hover{
+    height: 40px;
+    width: 90px;
+    background: #239c9c97;
+    color: rgba(250, 246, 246, 0.892);
+    transition: 0.5s;
+    
+}
+.container:hover{
+    margin: auto;
+    margin-top: 7%;
+    background-color:rgba(0, 0, 0, 0.823);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.707);
+    display: flex;
+    flex-direction: column;
+    width: 710px;
+    height: 510px;
+    padding: 20px;
+    align-self: center;
+    border-radius: 30% 0% 30% 0%;    
+}
